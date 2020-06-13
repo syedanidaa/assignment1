@@ -23,7 +23,7 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ bootcamp_setup_ziakhan.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ bootcamp_assignment1_nida.surge.sh --token ${{ secrets.SURGE_TOKEN }}
 
     # Runs a single command using the runners shell
     
